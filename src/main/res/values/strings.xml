@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Udacity News Feed</string>
+
+    <!-- Separator string to act as a divider between news details -->
+    <string name="separator">|</string>
+
+    <!-- Text to display in the list when there are no news articles found -->
+    <string name="no_news_articles">No news articles found.</string>
+
+    <!-- Error message when there is no internet connectivity -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+
+    <!-- Strings for minimum articles displayed preference -->
+    <string name="settings_min_articles_label">Minimum Articles Displayed</string>
+    <string name="settings_min_articles_key" translatable="false">min_articles</string>
+    <string name="settings_min_articles_default" translatable="false">20</string>
+
+    <!-- settings strings-->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <!-- Strings for the section preference -->
+    <string name="settings_section_label">Choose A Section</string>
+    <string name="settings_section_key" translatable="false">section</string>
+    <string name="settings_section_default" translatable="false">@string/settings_section_technology_value</string>
+
+    <!-- Label for section technology option -->
+    <string name="settings_section_technology">Technology</string>
+    <string name="settings_section_technology_value" translatable="false">technology</string>
+
+    <!-- Label for section world option -->
+    <string name="settings_section_world">World News</string>
+    <string name="settings_section_world_TF" translatable="false">world</string>
+
+    <!-- Label for section environment option -->
+    <string name="settings_section_environment">Environment</string>
+    <string name="settings_section_environment_TF" translatable="false">environment</string>
+
+    <!-- Label for section politics option -->
+    <string name="settings_section_politics">Politics</string>
+    <string name="settings_section_politics_TF" translatable="false">politics</string>
+
+    <!-- Label for section business option -->
+    <string name="settings_section_business">Business</string>
+    <string name="settings_section_business_TF" translatable="false">business</string>
+
+    <!-- Label for section science option -->
+    <string name="settings_section_science">Science</string>
+    <string name="settings_section_science_TF" translatable="false">science</string>
+
+    <!-- Label for section sport option -->
+    <string name="settings_section_sport">Sport</string>
+    <string name="settings_section_sport_TF" translatable="false">sport</string>
+
+    <!-- Strings for search content displayed preference -->
+    <string name="settings_search_content">Search Content</string>
+    <string name="settings_search_content_TF" translatable="false">search_content</string>
+    <string name="settings_search_content_default" translatable="false">World News</string>
+
+    <!-- Strings for the order-by preference -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_relevance_value</string>
+
+    <!-- Label for order-by relevance option -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <!-- Label for order-by newest option -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by oldest option -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+</resources>

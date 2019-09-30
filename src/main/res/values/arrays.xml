@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_relevance_label</item>
+        <item>@string/settings_order_by_newest_label</item>
+        <item>@string/settings_order_by_oldest_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_relevance_value</item>
+        <item>@string/settings_order_by_newest_value</item>
+        <item>@string/settings_order_by_oldest_value</item>
+    </string-array>
+
+
+    <string-array name="settings_section_labels">
+        <item>@string/settings_section_technology</item>
+        <item>@string/settings_section_world</item>
+        <item>@string/settings_section_environment</item>
+        <item>@string/settings_section_politics</item>
+        <item>@string/settings_section_business</item>
+        <item>@string/settings_section_science</item>
+        <item>@string/settings_section_sport</item>
+    </string-array>
+
+    <string-array name="settings_section_values">
+        <item>@string/settings_section_technology_value</item>
+        <item>@string/settings_section_world_TF</item>
+        <item>@string/settings_section_environment_TF</item>
+        <item>@string/settings_section_politics_TF</item>
+        <item>@string/settings_section_business_TF</item>
+        <item>@string/settings_section_science_TF</item>
+        <item>@string/settings_section_sport_TF</item>
+    </string-array>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_min_articles_default"
+        android:inputType="number"
+        android:key="@string/settings_min_articles_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_min_articles_label" />
+
+
+    <ListPreference
+        android:defaultValue="@string/settings_section_default"
+        android:entries="@array/settings_section_labels"
+        android:entryValues="@array/settings_section_values"
+        android:key="@string/settings_section_key"
+        android:title="@string/settings_section_label" />
+
+    <!-- EditText preference for search content -->
+    <EditTextPreference
+        android:defaultValue="@string/settings_search_content_default"
+        android:inputType="textAutoComplete"
+        android:key="@string/settings_search_content_TF"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_search_content" />
+
+    <!-- List preference for order by -->
+    <ListPreference
+        android:defaultValue="@string/settings_order_by_default"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:key="@string/settings_order_by_key"
+        android:title="@string/settings_order_by_label" />
+</PreferenceScreen>
